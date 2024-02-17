@@ -1,1 +1,1 @@
-# python
+This repository contains python cods.
