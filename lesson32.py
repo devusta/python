@@ -90,6 +90,10 @@ print(salon1[:])
 salon1[0] = Auto('Audi', 'A7', 'black', 2024, 37000)
 print(salon1[:])
 
+   
+
+
+
 
 
 
