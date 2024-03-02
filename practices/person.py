@@ -41,9 +41,6 @@ class Person:
         return info
     
     
-    
-    
-
 #================================================================================
 
 class Address:
@@ -113,4 +110,80 @@ class Student(Person):
         return (f"{self.fname.title()} {self.lname.title()}. {self.byear}-yilda tug'ilgan. "
                 f"Manzili: {self.address}. ID raqami: {self.id_num}, {self.syear}-kurs.")
  
-
+class Subject:
+    """Subject(fan) klassi"""
+    num_subjects = 0
+    def __init__(self, name):
+        self.name = name
+        self.students = []
+        Subject.num_subjects += 1
+        
+    @classmethod
+    def get_num_subjects(cls):
+        return cls.num_subjects
+    
+    def __repr__(self):
+        return f"{self.name.title()} fani."
+        
+    def __add__(self, student):
+        """Fanga talaba qo'shish"""
+        self.add_student(student)
+    
+    def add_student(self, *students):
+        """Fanga talaba qo'shish"""
+        for student in students:
+            if isinstance(student, Student):
+                self.students.append(student)
+            else:
+                return (f"{student} talaba emas!")
+                
+    def __sub__(self, student):
+        """Fandan talabani o'chirish"""
+        if student in self.students:
+            self.students.remove(student)
+            return f"{self.name} fanidan {student} o'chirildi."
+        else:
+            return f"{self.name} fanida {student} ismli talaba mavjud emas."
+            
+    def __len__(self):
+        """Fanning talabalar soni"""
+        return len(self.students)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
