@@ -7,6 +7,12 @@ Created on Thu Feb 15 17:54:31 2024
 @author: Asadbek (devusta)
 """
 # =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # return
+# # 
+# =============================================================================
+
+# =============================================================================
 # # SODDA FUNKSIYA
 # def toliqIsmYasa(ism, familiya):
 #     """TOLIQ ISM QAYTARUVCHI FUNKSIYA"""
@@ -74,7 +80,7 @@ Created on Thu Feb 15 17:54:31 2024
 # =============================================================================
         
 # =============================================================================
-# # RANGE FUNKSIYASINI YARATISH WITHOUT STEP
+# # RANGE FUNCTION WITHOUT STEP
 # def oraliq(min, max):
 #     """MA'LUM ORALIQDAGI SONLARDAN LIST YASOVCHI FUNKSIYA"""
 #     sonlar = []

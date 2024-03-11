@@ -7,6 +7,13 @@ Created on Mon Feb 12 13:21:30 2024
 
 @author: Asadbek (devusta)
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # items() - lug'at elementlari
+# # keys() - lug'at kalitlari
+# # values() - lug'at qiymatlari
+# # set - elementlari faqat bir marta takrorlanadigan ma'lumot turi
+# =============================================================================
 
 # =============================================================================
 # talaba_1 = {'ism':'Javohir', 'familiya':'Shamsiyev', 'yosh':23, 'kurs':4}

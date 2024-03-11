@@ -7,13 +7,20 @@ Created on Sat Feb 17 07:46:12 2024
 @author: Asadbek (devusta)
 """
 # =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # *args - infinite arguments
+# # **args - moslashuvchan argumentlar kalit so'zlar bilan birga kiritilganda
+# # sum() - yig'indini hisoblash
+# =============================================================================
+
+# =============================================================================
 # # MOSLASHUVCHAN ARGUMENTLI FUNKSIYA
-# def summa(*sonlar):
+# def summa(*args):
 #     """Kiritilgan sonlarni yig'indisini hisoblaydigan funksiya"""
-#     yigindi = 0
-#     for son in sonlar:
-#         yigindi += son
-#     return yigindi
+#     total = 0
+#     for number in args:
+#         total += number
+#     return total
 # 
 # print(summa(1, 2))
 # print(summa(1, 2, 3, 4, 5))

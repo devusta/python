@@ -8,6 +8,24 @@ Created on Sat Feb 10 17:29:35 2024
 @author: Asadbek (devusta)
 """
 # =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # sort() - listdagi elementlarni alifbo tartibida tartiblash
+# # sort(reverse=True) - listdagi elementlarni alifbo tartibiga teskari tartibda tartiblash 
+# # sorted() - listdagi elementlarni asl tartibini saqlagan holda 
+#              # alifbo tartibida foydalanish
+# # reverse() - listdagi elementlarni asl tartibga teskari tartibda saqlash 
+# # len() - obyektning uzunli
+# # range() - ma'lum oraliqdagi sonlar
+# # max(), min() - tegishlli obyektlarning eng kattasi yoki eng kichigi
+# # sum() - ma'lum elementlarning yig'indisi
+# # del - listning ma'lum elementini o'chirish
+# # tuple
+# # tuple(), list() - tuple va listga o'girish metodi
+# # type() - obyektni turini aniqlash
+# =============================================================================
+
+
+# =============================================================================
 # # SORT(), REVERSE
 # cars = ['bmw', 'volvo', 'nissan', 'toyoto', 'audi', 'mers', 'hyundai', 'kia']
 # 

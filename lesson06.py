@@ -7,6 +7,7 @@ Created on Sat Feb 10 00:32:11 2024
 
 @author: Asadbek (devusta)
 """
+
 # =============================================================================
 # INT O'ZGARUVCHILARNI E'LON QILISH
 # a = 5

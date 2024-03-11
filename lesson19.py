@@ -6,10 +6,16 @@ Created on Wed Feb 14 16:21:21 2024
 
 @author: Asadbek (devusta) 
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # funksiya
+# # def - funksiya yaratish kalit so'zi
+# # docstring - funksiya haqida ma'lumot beruvchi matn
+# # argument
+# =============================================================================
 
 # =============================================================================
 # # FUNKSIYA YARATISHDA 'def' KALIT SO'ZIDAN FOYDALANILADI
-# # DOCSTRING - funksiya haqidagi ma'lumot beruvchi matn
 # def salomBer(ism):
 #     """Foydalanuvchi ismini qabul qilib, 
 #     unga salom beruvchi funksiya""" # DOCSTRING

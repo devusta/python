@@ -6,14 +6,24 @@ Created on Sun Feb 25 14:42:31 2024
 
 @author: Asadbek (devusta)
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # uuid - maxsus modul
+# # uuid4() - takrorlanmaydigan ID generator funksiya
+# # inkapsulatsiya - obyektning xususiyatlarini berkitish 
+#                    # va xususiyatga to'gridan to'g'ri murojaat qilishni taqiqlab qo'yish
+#                    # inkapsulatsiya xususiyatlar ikkita pastki chiziq bilan yoziladi
+# =============================================================================
+                   
+                 
                     # MODUL FAYL
 
-# TAKRORLANMAYDIGAN ID GENERATSIYA QILIB BERRUVCHI FUNKSIYA
+# TAKRORLANMAYDIGAN ID GENERATSIYA QILIB BERUVCHI FUNKSIYA
 from uuid import uuid4
 
 # =============================================================================
 # # OBYEKTLAR UCHUN INKAPSULATSIYA XUSUSIYAT
-# class Avto:
+# class Auto:
 #     """Avtomobil klassi"""
 #     def __init__(self, maker, model, color, year, price, km=0):
 #         """Avtomobilning xususiyatlari"""
@@ -37,18 +47,18 @@ from uuid import uuid4
 #         else:
 #             print("Mashina km ni kamaytirib bo'lmaydi.")
 #             
-# avto1 = Avto('GM', 'Malibu', 'black', 2022, 30000, 1000)
+# auto1 = Auto('GM', 'Malibu', 'black', 2022, 30000, 1000)
 # 
-# print(avto1.maker)
-# avto1.add_km(1300)
-# avto1.add_km(-1000)
-# print(avto1.get_km())
+# print(auto1.maker)
+# auto1.add_km(1300)
+# auto1.add_km(-1000)
+# print(auto1.get_km())
 # =============================================================================
 
 # KLASSLAR UCHUN INKAPSULATSIYA XUSUSIYAT
-class Avto:
+class Auto:
     """Avtomobil klassi"""
-    __num_avto = 0   # KLASSNING INKAPSULATSIYA XUSUSIYATI
+    __num_auto = 0   # KLASSNING INKAPSULATSIYA XUSUSIYATI
     def __init__(self, maker, model, color, year, price, km=0):
         """Obyektlarning xususiyatlari"""
         self.maker = maker
@@ -58,7 +68,7 @@ class Avto:
         self.price = price
         self.__km = km        # OBYEKTNING XUSUSIYATI
         self.__id = uuid4()   # OBYEKTNING XUSUSIYATI
-        Avto.__num_avto += 1  # KLASSNING XUSUSIYATI
+        Auto.__num_avto += 1  # KLASSNING XUSUSIYATI
 
     @classmethod 
     def get_num_avto(cls):

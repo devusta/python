@@ -6,6 +6,19 @@ Created on Sun Feb 18 00:00:49 2024
 
 @author: Asadbek (devusta)
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # modul
+# # from
+# # import
+# # as
+# # math
+# # random
+# # randint()
+# # choice()
+# # shuffle()
+# # import *
+# =============================================================================
 
 # =============================================================================
 # # MODULDA MUROJAAT QILISH VA UNDAGI FUNKSIYALARNI CHAQIRISH

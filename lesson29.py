@@ -6,8 +6,14 @@ Created on Sat Feb 24 09:42:36 2024
 
 @author: Asadbek (devusta)
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # standart arguments
+# # get method
+# # set method
+# =============================================================================
 
-class Student():
+class Student:
     def __init__(self, firstname, lastname, birthyear):
         self.firstname = firstname
         self.lastname = lastname
@@ -66,7 +72,7 @@ student_3 = Student('jasur', 'akmalov', 2000)
 # print(student_1.get_info())
 # =============================================================================
     
-class Subject():
+class Subject:
     def __init__(self, subject_name):
         self.subject_name = subject_name
         self.students_quantity = 0

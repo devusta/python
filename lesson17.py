@@ -7,6 +7,17 @@ Created on Tue Feb 13 16:42:23 2024
 @author: Asadbek (devusta)
 """
 # =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # int() - obyektni int turiga o'tkazish
+# # str() - obyektni string turiga o'tkazish
+# # float() - obyektni o'nlik son ko'rinishiga o'tkazish
+# # boolean - ma'lumot turi
+# # while loop 
+# # break 
+# # continue
+# =============================================================================
+
+# =============================================================================
 # # INPUT()
 # ism = input("Ismingiz nima? ")
 # savol = f"Salom, {ism.title()}, yoshingiz nechida? "

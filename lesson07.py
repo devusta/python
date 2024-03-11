@@ -7,6 +7,13 @@ Created on Sat Feb 10 15:37:59 2024
 
 @author: Asadbek (devusta)
 """
+
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # list 
+# # pop() - listdan elementni su'gurib olish
+# =============================================================================
+
 # =============================================================================
 # # LISTLARNI E'LON QILISH
 # mevalar = ['olma', 'behi', 'anor', 'olcha', 'nok'] # matn saqlovchi list

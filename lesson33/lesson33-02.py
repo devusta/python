@@ -8,7 +8,7 @@ Created on Sat Mar  2 18:15:36 2024
 """
 
 # =============================================================================
-# # NEW UNDERSTANDINGS
+# # ✅NEW UNDERSTANDINGS:
 # # pickle - python xos bo'gan ma'lumotlar uchun fayllar moduli
 # # 'wb' - write binary / ikkilik sanoq sistemasida yozish
 # # dump - pickle faylga ma'lumot qo'shish(saqlash)

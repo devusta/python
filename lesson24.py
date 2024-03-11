@@ -6,6 +6,20 @@ Created on Sun Feb 18 08:31:58 2024
 
 @author: Asadbek (devusta)
 """
+
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # lambda - nomsiz va bir qatordan iborat funksiya
+# # map() - berilgan amalni berilgan list yoki lug'atning har bir element ustida bajaradi
+# # sqrt - sonlarning kvadrat ildizini qaytaruvchi funksiya
+# # sample() - berilgan oraliqdagi sonlardan berilgan 
+#              # miqdorda tasodifiy son qaytaradi. Random moduli joylashgan
+# # filter() - berilgan ro'yxat elementlarini berilgan bir funksiya
+#              # yordamida saralaydi. Bunga berilgan funksiya  boolean qiymat qaytarishi kerak
+# # startswith() - berilgan argument orqali boshqa bir obyektning birinchi elementini aniqlaydi
+# # endswith() - berilgan argument orqali boshqa bir obyektning oxirgin elementini aniqlaydi
+# =============================================================================
+
 import math
 # =============================================================================
 # # LAMBDA FUNKSIYA YARATISH

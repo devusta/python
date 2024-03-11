@@ -8,7 +8,7 @@ Created on Sat Mar  2 15:21:51 2024
 """
 
 # =============================================================================
-# # NEW UNDERSTANDINGS:
+# # ✅NEW UNDERSTANDINGS:
 # # open() - faylni ochish, 
 # # close() - faylni yopish 
 # # read() - faylni o'qish

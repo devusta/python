@@ -6,6 +6,12 @@ Created on Sat Feb 24 23:27:14 2024
 
 @author: Asadbek (devusta)
 """
+# =============================================================================
+# # ✅NEW UNDERSTANDINGS
+# # inheritance - bir(super) klasdan boshqa bir voris klas yaratish
+# # polimorfizm - super klas metodlarini voris klas uchun qayta yozish
+# =============================================================================
+
 # SUPER CLASS
 class Person:
     """Shaxslar haqida ma'lumot"""
