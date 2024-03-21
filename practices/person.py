@@ -12,7 +12,7 @@ class Person:
     """Person klassi"""
     persons = []
     jobs = {}
-    def __init__(self, fname, lname, byear, address, job=''):
+    def __init__(self, fname, lname, byear, address, job=None):
         self.fname = fname
         self.lname = lname
         self.byear = byear
@@ -62,7 +62,7 @@ class Address:
 #=============================================================================    
 class Professor(Person):
     """Professor klassi"""
-    num_professor = 0
+    num_professors = 0
     professors = []
     def __init__(self, fname, lname, byear, address, specialist, experience, job="teacher"):
         super().__init__(fname, lname, byear, address)
@@ -70,7 +70,7 @@ class Professor(Person):
         self.experience = experience
         self.job = job
         self.students = []
-        Professor.num_professor += 1
+        Professor.num_professors += 1
         Professor.professors.append(f"{fname} {lname}")
         
     def __getitem__(self, index):
@@ -148,7 +148,6 @@ class Subject:
     def __len__(self):
         """Fanning talabalar soni"""
         return len(self.students)
-    
     
     
     

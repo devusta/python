@@ -89,7 +89,8 @@ print(subject1 - student4)         # __sub__ test
 print(subject1.students)    # list test
 # print(len(subject1))
 
-
+print(Person.jobs)
+print(len(Person.jobs))
 
 
 
