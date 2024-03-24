@@ -31,8 +31,7 @@ Created on Sun Feb 25 22:35:01 2024
 # =============================================================================
 
 
-
-from auto_mod import Auto, AutoSalon
+from auto import Auto, AutoSalon
                 
                 
 auto1 = Auto('GM', 'Malibu', 'black', 2023, 30000)
@@ -52,19 +51,23 @@ salon1 = AutoSalon('AutoBox')
 salon2 = AutoSalon('BigAuto')
 
 salon1.add_auto(auto1, auto2, auto3)
-print(len(salon1)) # len list
-print(salon1[0])   # get item
-print(salon1[:])
+# print(len(salon1)) # len list
+# print(salon1[0])   # get item
+# print(salon1[:])
 
 # set item
 salon1[0] = Auto('Audi', 'A7', 'black', 2024, 37000)
-print(salon1[:])
+# print(salon1[:])
 
 salon1()  # __call__ test
 
-salon3 = salon1 + salon2
+salon3 = salon1 + salon2   # __add__ test
+# print(salon3)
+# print(salon3(auto4, auto5))
 
-
+print(salon1())   # __add__ test
+salon1(auto5)
+print(salon1())
 
 
 

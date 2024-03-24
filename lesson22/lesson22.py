@@ -15,12 +15,12 @@ Created on Sat Feb 17 07:46:12 2024
 
 # =============================================================================
 # # MOSLASHUVCHAN ARGUMENTLI FUNKSIYA
-# def summa(*args):
+# def summa(*sonlar):
 #     """Kiritilgan sonlarni yig'indisini hisoblaydigan funksiya"""
-#     total = 0
-#     for number in args:
-#         total += number
-#     return total
+#     yigindi = 0
+#     for son in sonlar:
+#         yigindi += son
+#     return yigindi
 # 
 # print(summa(1, 2))
 # print(summa(1, 2, 3, 4, 5))

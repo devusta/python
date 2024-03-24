@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 36-video
-28-dars. OOP / KLASSLAR 
+28-dars. KLASSLAR / OOP
 
 Created on Sat Feb 24 07:59:37 2024
 
@@ -13,7 +13,6 @@ Created on Sat Feb 24 07:59:37 2024
 # # class
 # # self 
 # =============================================================================
-
 
 # =============================================================================
 # # CREATE A NEW CLASS
@@ -43,7 +42,7 @@ student_1 = Student("olim", "qosimov", 2001)
 student_2 = Student("kozim", "jalolov", 1998)
 student_3 = Student("javohir", "kamolov", 1994)
  
-# USING CLASS AND OBJECT
+ # USING CLASS AND OBJECT
 print(student_1.name)
  
 print(student_2.get_age(2024))

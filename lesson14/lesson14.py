@@ -76,10 +76,8 @@ Created on Sun Feb 11 22:41:03 2024
 # =============================================================================
 # # GET() METODI
 # mevalar = {'olma':1000, 'gilos':2000, 'olcha':3000}
-# meva = mevalar.get('gilos', 'Bunday element mavjud emas.')
-# meva1 = mevalar.get('nok', 'Bunday element mavjud emas.')
+# meva = mevalar.get('nok', 'Bunday element mavjud emas.')
 # print(meva)
-# print(meva1)
 # =============================================================================
 
 

@@ -22,6 +22,7 @@ Created on Sat Mar  2 15:21:51 2024
 # # 'a' - to append / fayl ma'lumotlariga yangi ma'lumot qo'shish
 # =============================================================================
 
+
 # =============================================================================
 # # Fayllar bilan ishlashdagi TAVSIYA ETILMAGAN usullar
 # file = open('pi.txt') # Faylni ochish va uni 'file' o'zgaruvchiga yuklash

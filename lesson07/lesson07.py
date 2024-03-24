@@ -7,7 +7,6 @@ Created on Sat Feb 10 15:37:59 2024
 
 @author: Asadbek (devusta)
 """
-
 # =============================================================================
 # # ✅NEW UNDERSTANDINGS
 # # list 

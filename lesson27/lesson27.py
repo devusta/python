@@ -11,7 +11,7 @@ from transliterate import to_cyrillic, to_latin
 
 import telebot
 
-TOKEN = 'Telegram bot key is written here'
+TOKEN = '7122496448:AAE-aA91H8A71_6HqCfebPE_cR8M2P98eMY'
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 @bot.message_handler(commands=['start'])

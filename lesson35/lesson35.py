@@ -15,6 +15,7 @@ Created on Sat Mar 16 01:46:28 2024
 # # else for exception - xatolik yuz bermasa  bajariladigan kod oldidan yoziladi
 # # pass - kod qaysidir qismini shunchaki o'tkazib yuborish
 # # isdigit() - obyektni raqamlardan iborat yoki yo'qligini tekshiradi
+# # finally
 # =============================================================================
 
 # =============================================================================
@@ -145,11 +146,6 @@ import json
 # print(f"Siz {2024-age}-yilda tug'ilgansiz.")
 # =============================================================================
     
-
-
-
-
-
 
 
 

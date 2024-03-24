@@ -13,17 +13,18 @@ Created on Sat Feb 24 09:42:36 2024
 # # set method
 # =============================================================================
 
-class Student:
+
+class Student():
     def __init__(self, firstname, lastname, birthyear):
         self.firstname = firstname
         self.lastname = lastname
         self.birthyear = birthyear
-        self.course = 1 # STARDART ARGUMENT 
+        self.s_year = 1 # STARDART ARGUMENT 
     
     # SET METHODS / KLASGA MA'LUMOT QO'SHISH METODLARI
-    def set_course(self, new_course):
+    def set_course(self, new_s_year):
         """Talabaning kursini yangilovchi metod"""
-        self.course = new_course
+        self.s_year = new_s_year
     
     # GET METHODS / KLASDAN MA'LUMOT OLISH METODLARI
     def get_firstname(self):
@@ -42,15 +43,15 @@ class Student:
         """Talabanning tug'ilan yili"""
         return self.birthyear
 
-    def get_course(self):
+    def get_s_year(self):
         """Talabaning kursi"""
-        return self.course
+        return self.s_year
     
     def get_info(self):
         """Talaba haqida ma'lumot beruvchi metod"""
         return (f"{self.firstname.title()} {self.lastname.title()} "
                 f"{self.birthyear}-yilda tug'ilgan. "
-                f"{2024-self.birthyear} yoshda va {self.course}-kurs.")
+                f"{2024-self.birthyear} yoshda va {self.s_year}-kurs.")
 
 student_1 = Student('ahror', 'kamolov', 1997)
 student_2 = Student('jamol', 'hoshimov', 1998)
@@ -62,17 +63,17 @@ student_3 = Student('jasur', 'akmalov', 2000)
 # print(student_1.get_lastname())
 # print(student_1.get_fullname())
 # print(student_1.get_birthyear())
-# print(student_1.get_course())
+# print(student_1.get_s_year())
 # print(student_1.get_info())
 # =============================================================================
 
 # =============================================================================
 # # OBYEKT MA'LUMOTINI O'ZGARTIRISH VA YANGI MA'LUMOT QO'SHISH 
-# print(student_1.set_course(2))
+# print(student_1.set_s_year(2))
 # print(student_1.get_info())
 # =============================================================================
     
-class Subject:
+class Subject():
     def __init__(self, subject_name):
         self.subject_name = subject_name
         self.students_quantity = 0

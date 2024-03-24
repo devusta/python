@@ -23,7 +23,7 @@ Created on Wed Feb 28 01:38:28 2024
 # # __ne__(self, y) - x != y
 # # isinstance() - obyektni qandaydir klassga tegishli yoki yo'qligini tekshirish
 # # __getitem__() - ro'yxatdagi ma'lum elementni ko'rish
-# # __setitem__() - ro'yxatga ma'lum element qo'shish 
+# # __setitem__() - ro'yxatga ma'lum element qo'shish
 # # __call__() 
 # # __add__()
 # # __sub__()

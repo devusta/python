@@ -6,7 +6,6 @@ Created on Sun Feb 18 08:31:58 2024
 
 @author: Asadbek (devusta)
 """
-
 # =============================================================================
 # # ✅NEW UNDERSTANDINGS
 # # lambda - nomsiz va bir qatordan iborat funksiya
@@ -197,9 +196,6 @@ import random as r
 # print(mevalar)
 # print(mevalar_a)
 # =============================================================================
-
-
-
 
 
 

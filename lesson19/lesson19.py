@@ -16,6 +16,7 @@ Created on Wed Feb 14 16:21:21 2024
 
 # =============================================================================
 # # FUNKSIYA YARATISHDA 'def' KALIT SO'ZIDAN FOYDALANILADI
+# # DOCSTRING - funksiya haqidagi ma'lumot beruvchi matn
 # def salomBer(ism):
 #     """Foydalanuvchi ismini qabul qilib, 
 #     unga salom beruvchi funksiya""" # DOCSTRING

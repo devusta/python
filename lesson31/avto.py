@@ -6,19 +6,9 @@ Created on Sun Feb 25 14:42:31 2024
 
 @author: Asadbek (devusta)
 """
-# =============================================================================
-# # ✅NEW UNDERSTANDINGS
-# # uuid - maxsus modul
-# # uuid4() - takrorlanmaydigan ID generator funksiya
-# # inkapsulatsiya - obyektning xususiyatlarini berkitish 
-#                    # va xususiyatga to'gridan to'g'ri murojaat qilishni taqiqlab qo'yish
-#                    # inkapsulatsiya xususiyatlar ikkita pastki chiziq bilan yoziladi
-# =============================================================================
-                   
-                 
                     # MODUL FAYL
 
-# TAKRORLANMAYDIGAN ID GENERATSIYA QILIB BERUVCHI FUNKSIYA
+# TAKRORLANMAYDIGAN ID GENERATSIYA QILIB BERRUVCHI FUNKSIYA
 from uuid import uuid4
 
 # =============================================================================
@@ -47,7 +37,7 @@ from uuid import uuid4
 #         else:
 #             print("Mashina km ni kamaytirib bo'lmaydi.")
 #             
-# auto1 = Auto('GM', 'Malibu', 'black', 2022, 30000, 1000)
+# avto1 = Auto('GM', 'Malibu', 'black', 2022, 30000, 1000)
 # 
 # print(auto1.maker)
 # auto1.add_km(1300)
@@ -68,11 +58,11 @@ class Auto:
         self.price = price
         self.__km = km        # OBYEKTNING XUSUSIYATI
         self.__id = uuid4()   # OBYEKTNING XUSUSIYATI
-        Auto.__num_avto += 1  # KLASSNING XUSUSIYATI
+        Auto.__num_auto += 1  # KLASSNING XUSUSIYATI
 
     @classmethod 
-    def get_num_avto(cls):
-        return cls.__num_avto # Klassning xususiyatini olish
+    def get_num_auto(cls):
+        return cls.__num_auto # Klassning xususiyatini olish
     
     def get_km(self):
         return self.__km

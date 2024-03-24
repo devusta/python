@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 42-video
-34-dars. JSON
+34-dars. JSON(JavaScript Object Notation)
 Created on Sat Mar  2 21:36:01 2024
 
 @author: Asadbek (devusta)
@@ -104,9 +104,9 @@ import json
 #     'family_members': ('father', 'mother', 'brother', 'sister'),
 #     'scores': [
 #         {
-#             'firts_year': {'language': 4, 'math': 5, 'pysiology': 4},
-#             'second_year': {'language': 5, 'math': 4, 'pysiology': 4},
-#             'third_year': {'language': 5, 'math': 3, 'pysiology': 5}
+#             'first_year': {'language': 4, 'math': 5, 'physiology': 4},
+#             'second_year': {'language': 5, 'math': 4, 'physiology': 4},
+#             'third_year': {'language': 5, 'math': 3, 'physiology': 5}
 #          }
 #         ],
 #     'bachelor_warning': None
@@ -154,7 +154,21 @@ import json
 # print(type(student2))
 # =============================================================================
 
-
+# =============================================================================
+# # AMALIYOT
+# with open('api-result.json', 'r') as f:
+#     file_info = json.load(f)
+#     
+# # print(file_info)
+# keys = [key for key in file_info.keys()]
+# print(len(keys))
+# print(keys[0])
+# print(keys[1])
+# print(file_info['query']['pages']['13801']['title'])
+# print(file_info['query']['pages']['13801']['extract'])
+# 
+# # print(file_info.values())
+# =============================================================================
 
   
 

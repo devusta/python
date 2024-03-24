@@ -22,7 +22,7 @@ class CarTest(unittest.TestCase):
         self.auto2 = Car(maker, model, year, price=self.price)
 
     def test_create(self):
-        """Klassning xususiyatlarini va berilgan qiymatlarini test qilish"""
+        """Klassning xususiyatlari va berilgan qiymatlarini test qilish"""
         # Qiymat mavjudligini assertIsNotNone metodi bilan test qilamiz
         self.assertIsNotNone(self.auto1.maker)
         self.assertIsNotNone(self.auto1.model)

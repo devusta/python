@@ -72,7 +72,15 @@ This is a temporary script file.
 # print("Assalomu alaykum, " + ism.title())
 # =============================================================================
 
-
+# =============================================================================
+# # String ustida turli amallar
+# var = "James Bond"
+# print(var[1])       # a
+# print(var[-1])      # d
+# print(var[:-1])     # James Bond
+# print(var[::-1])    # dnoB semaJ
+# print(var[3::-1])   # emaJ
+# =============================================================================
 
 
 

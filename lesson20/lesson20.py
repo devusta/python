@@ -80,7 +80,7 @@ Created on Thu Feb 15 17:54:31 2024
 # =============================================================================
         
 # =============================================================================
-# # RANGE FUNCTION WITHOUT STEP
+# # RANGE FUNKSIYASINI YARATISH WITHOUT STEP
 # def oraliq(min, max):
 #     """MA'LUM ORALIQDAGI SONLARDAN LIST YASOVCHI FUNKSIYA"""
 #     sonlar = []
