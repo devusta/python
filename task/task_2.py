@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-'Hayot y'li' MODUL
-Created on Sun Mar 31 03:23:56 2024
-
+OOP bo'limi uchun amaliy topshiriq
+Created on Tue Mar 26 12:08:16 2024
+                 
 @author: Asadbek (devusta)
-"""
+"""              
+
 
 num_definitions = {
 "info_1": """Rahbar: Siz rahbarlikni yaxshi ko'rasiz! Siz innovatsiya ruhiga ega mehnatkashsiz. Sizda ham san’atga ishtiyoq bor. Siz o'zingizni osonlikcha namoyon qila olasiz va har qanday ishda doimo birinchi bo'lishni xohlaysiz. Siz va orzularingizga hech narsa yoki hech kim to'sqinlik qilishiga yo'l qo'ymaysiz. Siz qilishingiz kerak bo'lgan 
@@ -54,13 +55,66 @@ num_definitions = {
         Sizning kamchiliklaringiz: o'tmishdan voz kechish siz uchun qiyin. Siz o'zingizni onangiz yoki otangiz tomonidan sevilmagan yoki tashlab ketilgan his qilishingiz mumkin, bu esa ular uchun javobgarlikni his qilishingizga sabab bo'ladi. Siz shunchalik beryapsizki, moliyaviy ahvolingiz 
         yaxshi holatda bo'lmasligi mumkin. Shuningdek, sizda tartibsizlik bo'lsa, tarqoq bo'lish istagi bor. Agar siz o'zingizning haqiqiy berish tuyg'usingizdan tashqari moddiy manfaatlarga intilayotgan bo'lsangiz, o'zingizdan chuqur norozi bo'lishingiz mumkin."""
         }
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
+
+
+class Person:
+    def __init__(self, first_name, last_name, age, email, birthday):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.email = email
+        self.__birthday = birthday
+
+    @property
+    def birthday(self):
+        return list(map(int, self.__birthday.split("-")))
+
+    @birthday.setter
+    def birthday(self, value):
+        self.__birthday = value
+
+    def get_info(self):
+        return (f"{self.first_name.title()} {self.last_name.title()}, "
+                f"{self.birthday[0]}-yilda tug'ilgan va {self.age} yoshda. "
+                f"Elektron pochta manzili: {self.email}.")
+
+    def get_life_path_number(self):
+        sum_num = sum([int(i) for i in str(self.birthday[0])])
+        sum_num += sum([int(i) for i in str(self.birthday[1])])
+        sum_num += sum([int(i) for i in str(self.birthday[2])])
+        return sum([int(i) for i in str(sum_num)])
+        
+    def get_info_by_number(self):       
+        info_num = [i for i in num_definitions.keys()][self.get_life_path_number()-1]
+        return f"{self.first_name.title()}ning hayot yo'li psixologik jihatdan quyidagicha:\n {num_definitions[info_num]}"
+            
+                
+
+# Obyekt yaratish
+person1 = Person("jamshid", "Kamolov", 23, "jamshid@email.com", "1999-07-19")
+# birthday metodi
+print(person1.birthday)
+# Obyekt haqida ma'lumot olish
+print(person1.get_info())
+# Obyektning hayot yo'li raqamini olish
+path_num = person1.get_life_path_number()
+print(f"Sizning hayot yo'li raqamingiz {path_num}")
+# Obyektning hayot yo'li raqamiga mos ma'lumotni chiqarish
+print(person1.get_info_by_number())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
