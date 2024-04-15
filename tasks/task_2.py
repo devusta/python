@@ -6,7 +6,6 @@ Created on Tue Mar 26 12:08:16 2024
 @author: Asadbek (devusta)
 """              
 
-from life_path_mod import num_definitions 
 
 class Person:
     def __init__(self, first_name, last_name, age, email, birthday):
@@ -32,9 +31,10 @@ class Person:
         return sum([int(i) for i in str(sum([int(i) for i in str(sum_num)]))])
     
     
-    def get_info_by_number(self, path_num):       
-        num_definition = [i for i in num_definitions.keys()][path_num-1]
-        return f"{self.first_name.title()}ning hayot yo'li psixologik jihatdan quyidagicha:\n {num_definitions[num_definition]}"
+    def get_info_by_number(self, path_num): 
+        with open('life_path.txt', 'r', encoding='utf8') as f:
+            num_defs = f.read().split('#')               
+        return f"{self.first_name.title()}ning hayot yo'li psixologik jihatdan quyidagicha:\n {num_defs[path_num]}"
            
                 
 
